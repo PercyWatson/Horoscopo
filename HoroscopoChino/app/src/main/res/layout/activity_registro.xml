@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.plama.horoscopochino.Registro">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="153dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="120dp"
+        android:background="@drawable/logo"
+        />
+
+    <Button
+        android:id="@+id/btnayudaregistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ayuda"
+        android:onClick="ayudaregistro"
+        android:layout_alignParentBottom="true"
+
+        />
+
+    />
+    <Button
+        android:id="@+id/btnregistrarseregistro"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:onClick="registrarseregistro"
+        android:text="Registrarse"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:layout_marginLeft="150dp"
+        />
+
+
+    <Button
+        android:id="@+id/btnvolverregistro"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:onClick="volverregistro"
+        android:text="Volver"
+        android:layout_alignBottom="@+id/btnregistrarseregistro"
+        android:layout_marginLeft="25dp"
+
+        />
+
+    <TextView
+        android:id="@+id/txtrpassdw2"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/txtrpasswd"
+        android:layout_alignTop="@+id/txtfieldpasswd2"
+        android:text="Password" />
+
+    <EditText
+        android:id="@+id/txtfieldpasswd2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:text=""
+        android:singleLine="true"
+        android:gravity="center"
+        android:maxLength="20"
+        android:imeOptions="actionDone"
+        android:layout_marginBottom="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="150dp"
+        android:inputType="textPassword"
+
+        />
+
+    <TextView
+        android:id="@+id/txtrpasswd"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="Password"
+        android:layout_alignLeft="@+id/btnvolverregistro"
+        android:layout_alignStart="@+id/btnvolverregistro"
+        android:layout_alignBottom="@+id/txtfieldpasswd"
+
+
+        />
+
+    <EditText
+        android:id="@+id/txtfieldpasswd"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:text=""
+        android:gravity="center"
+        android:singleLine="true"
+        android:maxLength="20"
+        android:imeOptions="actionDone"
+
+        android:layout_marginBottom="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="150dp"
+        android:inputType="textPassword"
+
+        />
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="Usuario"
+
+        android:layout_alignLeft="@+id/btnvolverregistro"
+        android:layout_alignStart="@+id/btnvolverregistro"
+        android:layout_alignBottom="@+id/txtfieldusuarioregistro"
+
+        />
+
+    <EditText
+        android:id="@+id/txtfieldusuarioregistro"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_above="@+id/txtfieldpasswd"
+        android:layout_alignStart="@+id/txtfieldpasswd"
+        android:gravity="center"
+        android:maxLength="20"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:ems="10"
+        android:text=""
+        />
+
+
+</RelativeLayout>
+

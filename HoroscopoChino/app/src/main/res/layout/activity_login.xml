@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.plama.horoscopochino.Login">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="153dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="120dp"
+        android:background="@drawable/logo"
+        />
+
+    <Button
+        android:id="@+id/btnvolverlogeo"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/btnloginlogeo"
+        android:layout_alignBottom="@+id/btnloginlogeo"
+        android:layout_alignLeft="@+id/btnregistrologeo"
+        android:layout_alignStart="@+id/btnregistrologeo"
+        android:onClick="volverlogeo"
+        android:text="Volver" />
+
+    <TextView
+        android:id="@+id/txtpasswd"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/txtfieldpassword"
+        android:layout_alignLeft="@+id/btnvolverlogeo"
+        android:layout_alignStart="@+id/btnvolverlogeo"
+        android:text="Password" />
+
+    <TextView
+        android:id="@+id/txtusuariologeo"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="Usuario"
+        android:layout_alignLeft="@+id/btnvolverlogeo"
+        android:layout_alignStart="@+id/btnvolverlogeo"
+        android:layout_alignBottom="@+id/txtfieldusuario"
+
+
+        />
+
+
+
+    <EditText
+        android:id="@+id/txtfieldpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:text=""
+        android:layout_marginBottom="180dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="150dp"
+        android:gravity="center"
+        android:maxLength="20"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:inputType="textPassword"
+
+        />
+
+    <EditText
+        android:id="@+id/txtfieldusuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:gravity="center"
+        android:maxLength="20"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:layout_marginBottom="240dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="150dp"
+        />
+
+
+    <Button
+        android:id="@+id/btnloginlogeo"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/btnregistrologeo"
+        android:layout_alignLeft="@+id/txtfieldpassword"
+        android:layout_alignStart="@+id/txtfieldpassword"
+        android:layout_marginBottom="11dp"
+        android:onClick="loginlogeo"
+        android:text="Ingresar" />
+    <Button
+        android:id="@+id/btnregistrologeo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="21dp"
+        android:text="Registrarse"
+        android:onClick="registrologeo"
+        android:layout_alignParentBottom="true" />
+
+    />
+
+    <Button
+        android:id="@+id/btnayudalogeo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ayuda"
+        android:onClick="ayudalogeo"
+        android:layout_alignParentBottom="true" /><![CDATA[
+
+    />
+
+
+
+
+]]>
+</RelativeLayout>
+

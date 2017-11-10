@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Horoscopo Chino</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_registro">Registro</string>
+    <string name="title_activity_ayuda">Ayuda</string>
+    <string name="title_activity_fecha">Fecha</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.plama.horoscopochino.Ayuda">
+
+    <Button
+        android:id="@+id/btnayudaayuda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:onClick="ayudaayuda"
+        android:layout_alignParentBottom="true"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="65dp"
+        android:layout_marginTop="15dp"
+        android:text="Para poder ocupar la aplicacion de horoscopo chino es nescesario que siga los siguientes pasos:
+1.- Debe registrarse con un nombre de usuario que no este registrado y con una contraseña.
+2.- Debe iniciar sesion con su nombre de usuario y contraseña.
+3.- Debe ingresar un año de nacimiento mayor a 0 y menor a 99999.
+4.- Disfrute.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Para mas informacion contacte a: Ayuda@horoscopochino.inacap.cl"
+        />
+
+
+</RelativeLayout>
